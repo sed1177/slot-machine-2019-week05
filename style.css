@@ -1,0 +1,75 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 50px;
+  background: #f8f8f8;
+}
+
+h1 {
+  color: #222;
+}
+
+.slot {
+  font-size: 1rem;
+  margin: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 60px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  line-height: 60px;
+  background: white;
+  overflow: hidden;
+}
+
+
+#spinBtn, #resetBtn {
+  padding: 10px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  transition: background 0.3s;
+}
+
+
+#spinBtn {
+  background: #4CAF50;
+}
+
+
+#spinBtn:hover {
+  background: #45a049;
+}
+
+
+#resetBtn {
+  background: #f44336;
+}
+
+
+#resetBtn:hover {
+  background: #e53935;
+}
+
+
+#result {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+
+#balance {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+/* already responsive :) */
