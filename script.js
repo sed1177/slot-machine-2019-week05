@@ -1,3 +1,5 @@
+// emojis are from https://getemoji.com/
+
 const spinBtn = document.getElementById('spinBtn')
 const resetBtn = document.getElementById('resetBtn')
 const slot1 = document.getElementById('slot1')
@@ -24,7 +26,7 @@ spinBtn.addEventListener('click', () => {
   const show2 = randomShow()
   const show3 = randomShow()
 
-//   put the array value in the UI
+//  put the array value in the UI
   slot1.textContent = show1
   slot2.textContent = show2
   slot3.textContent = show3
@@ -57,3 +59,5 @@ resetBtn.addEventListener('click', () => {
   slot2.textContent = "?"
   slot3.textContent = "?"
 })
+
+
